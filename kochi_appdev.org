@@ -60,6 +60,26 @@
 [[./figures/aimai-lunch.png]]
 
 
+** OYACO 							:B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+*** OYACO 							    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+    - https://github.com/KahokuHanten/oyaco
+    - https://oyaco.herokuapp.com/
+
+*** 　								    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+
+[[./figures/oyaco.png]]
+
 ** RyuPiT「SharePla」不定期					:B_fullframe:
    :PROPERTIES:
    :BEAMER_env: fullframe
