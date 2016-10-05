@@ -1,0 +1,87 @@
+#+STARTUP: beamer
+#+TITLE: アプリ開発人材育成講座
+#+SUBTITLE: 応用編: ガイダンス
+#+AUTHOR: 産業技術大学院大学 中鉢 欣秀
+#+DATE: 平成28年10月
+#+OPTIONS: H:2 toc:nil ^:nil
+#+BEAMER_THEME: default
+#+BEAMER_OUTER_THEME: infolines
+#+BEAMER_HEADER: \setbeamertemplate{navigation symbols}{}
+#+BEAMER_HEADER: \setbeamerfont{frametitle}{size=\large}
+#+BEAMER_HEADER: \setbeamerfont{block title}{size=\normalsize}
+#+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate body begin}{\normalsize}
+#+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate subbody begin}{\normalsize}
+
+* はじめに
+** 目次
+#+TOC: headlines [currentsection]
+
+** PBLの取り組み事例
+*** 慶應義塾湘南藤沢キャンパス（SFC）
+    - 協創型ソフトウェア開発
+*** 産業技術大学院大学（AIIT）
+    - PBL
+*** enPiT
+    - あああ
+
+** スライド2
+   長期ハッカソン型の人材育成講座です。プロジェクトマネージャーと受講生からなるグループを複数編成し、Webサービス、ゲームなどのアプリを開発することで、実践的な開発力を持った人材を育成します。
+
+いいい
+
+** enPiT最終年度の授業科目
+   1. コラボレイティブ開発特論（90分×15回）
+      - Git/GitHub，Sinatra，Heroku，RoR，Travis CI
+   2. アジャイル開発特論（90分×15回）
+      - ワークショップ
+      - ミニPBL
+   3. ビジネスアプリケーション演習
+      - ハッカソン形式PBL（Demo or Die）
+
+* PBL成果物の事例
+** あいまいランチ						:B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+*** あいまいランチ 						    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+    - http://aimai-lunch.herokuapp.com/
+    - https://github.com/esodov/wassermann
+
+*** 　								    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+
+[[./figures/aimai-lunch.png]]
+
+
+** RyuPiT「SharePla」不定期					:B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+*** RyuPiT「SharePla」不定期					    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+    - http://sharepla.herokuapp.com/
+    - https://github.com/ryupit
+
+*** 　								    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+[[file:figures/sharepla.png][file:~/git/kochi_appdev/figures/sharepla.png]]
+
+* つぎに
+** 目次
+#+TOC: headlines [currentsection]
+
+** スライド2
+いいい
