@@ -12,7 +12,7 @@
 #+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate body begin}{\normalsize}
 #+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate subbody begin}{\normalsize}
 
-* はじめに
+* 自己紹介・PBLとは？
 ** 目次
 #+TOC: headlines [currentsection]
 
@@ -20,6 +20,7 @@
    - 中鉢欣秀と申します
      - 産業技術大学院大学（AIIT）准教授
      - ソフトウェア開発技術者育成について研究
+#+BEAMER: \pause
    - AIITとは？
      - 実践的な高度人材を育成する東京都の大学院大学
      - 修士論文ではなく「 *PBL* 」を通して実務に通用する
@@ -30,36 +31,60 @@
    - Project Based Learning
      - 明確なゴールを設定し， *プロジェクト活動を通して*
        実践的な課題の解決に取り組む
+#+BEAMER: \pause
    - 教育手法としての特徴
      - 教科書や講義だけでは学べない，
        実務者としての能力を育成
+#+BEAMER: \pause
    - Active Learning
      - 学習者の *主体的・能動的な学び* に基づく教育
-     - 「手取り足取り」型の教育ではない
+     - 「手取り足取り」型の教育ではない， *チーム学習*
 
+** 総監修就任にあたり
+   - 最初はびっくり
+     - 「まんがコンテンツ課！？」
+#+BEAMER: \pause
+   - 地方に暮らし東京のエンジニアと同等のスキルセットがあれば，
+     *東京と同じ給与をもらい，余裕のある生活* ができる！
+     - 地方（仙台市）出身者として，地方におけるIT人材育成に
+       ぜひ貢献したい
+#+BEAMER: \pause
+   - 総監修として，できる限り皆さんの活動をサポートしていきたい
+
+* PBLの事例・プロダクト
 ** PBLの取り組み事例
-*** 慶應義塾湘南藤沢キャンパス（SFC）
-    - 協創型ソフトウェア開発
-*** 産業技術大学院大学（AIIT）
-    - 修士課程2年次を対象
-*** enPiT
-    - あああ
+   1. 慶應義塾湘南藤沢キャンパス（SFC）
+      - [[http://collam.bpsinc.jp/][コラボレイティブ・マネジメント型情報教育]]
+      - 社会人がPMとなり学生をマネジメント
+#+BEAMER: \pause
+   2. 産業技術大学院大学（AIIT）
+      - [[http://aiit.ac.jp/][専門職大学院 | 産業技術大学院大学]]
+      - 専門職修士課程2年次対象
+#+BEAMER: \pause
+   3. enPiT ビジネスアプリケーション分野
+      - [[http://enpit.aiit.ac.jp/][enPiT BizApp – 産業技術大学院大学]]
+      - 全国の大学が参加する文科省プロジェクト
 
-** スライド2
-   長期ハッカソン型の人材育成講座です。プロジェクトマネージャーと受講生からなるグループを複数編成し、Webサービス、ゲームなどのアプリを開発することで、実践的な開発力を持った人材を育成します。
-
-いいい
-
-** enPiT最終年度の授業科目
-   1. コラボレイティブ開発特論（90分×15回）
+** enPiT（最終年度）の授業内容
+   1. コラボレイティブ開発特論（90分 x 15回）
       - Git/GitHub，Sinatra，Heroku，RoR，Travis CI
-   2. アジャイル開発特論（90分×15回）
+#+BEAMER: \pause
+   2. アジャイル開発特論（90分 x 15回）
       - ワークショップ
       - ミニPBL
-   3. ビジネスアプリケーション演習
+#+BEAMER: \pause
+   3. ビジネスアプリケーション演習（全8週間）
       - ハッカソン形式PBL（Demo or Die）
 
-* PBL成果物の事例
+** 事例の前に: PBLにおける「成果」とは？
+   - PBLにおける成果とは，プロジェクトを通して得られた
+     *学習者自身の学び* である！
+#+BEAMER: \pause
+   - PBLで開発したプロダクトとは，あくまでも学生の学びの副産物
+#+BEAMER: \pause
+   - PBLの評価においては *「プロジェクト」と「プロダクト」を分けて*
+     考えるべき
+
 ** あいまいランチ						:B_fullframe:
    :PROPERTIES:
    :BEAMER_env: fullframe
@@ -72,6 +97,7 @@
     - http://aimai-lunch.herokuapp.com/
     - https://github.com/esodov/wassermann
 
+#+BEAMER: \pause
 *** 　								    :B_block:
     :PROPERTIES:
     :BEAMER_env: block
@@ -93,6 +119,7 @@
     - https://github.com/KahokuHanten/oyaco
     - https://oyaco.herokuapp.com/
 
+#+BEAMER: \pause
 *** 　								    :B_block:
     :PROPERTIES:
     :BEAMER_env: block
@@ -113,6 +140,7 @@
     - http://sharepla.herokuapp.com/
     - https://github.com/ryupit
 
+#+BEAMER: \pause
 *** 　								    :B_block:
     :PROPERTIES:
     :BEAMER_env: block
@@ -120,9 +148,32 @@
     :END:
 [[file:figures/sharepla.png][file:~/git/kochi_appdev/figures/sharepla.png]]
 
-* つぎに
+* 皆さんへのメッセージ・質疑応答
 ** 目次
 #+TOC: headlines [currentsection]
 
-** スライド2
-いいい
+** PMの皆さんへ
+   - 「自分の持っているスキルを伝授したい！！！」
+     - これだとうまく行かないことが多い
+#+BEAMER: \pause
+   - チームメンバー（学習者）と *共に学び合う* 気持ち
+     - メンバーが決めたやり方に，「やってみなはれ」という余裕
+#+BEAMER: \pause
+   - 完成責任はない
+     - 積極的に失敗をさせ，そこから *気づき* を得る
+
+** トラブルへの対応
+   - 途中で悩んだら
+     - 他のPMや総監修，関係者にすぐ相談
+#+BEAMER: \pause
+   - 途中離脱への対応
+     - メンバーが途中で抜けることは珍しくない
+#+BEAMER: \pause
+   - メンバーは部下ではない
+     - コーチング・メンタリングが大切
+#+BEAMER: \pause
+   - PM自身が学ぶ気持ち
+     - 他人に教えることは自分自身の学びでもある
+
+** 質疑応答
+   - 質疑応答
